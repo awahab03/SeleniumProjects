@@ -1,0 +1,15 @@
+Moving the project to a new location:
+
+When moved to a different location,
+Please change the path variables with new project name in the Global.java
+
+and also in the "getFWRoot()" method at the bottom of the Global.java
+
+To convert to Junit fw:
+1. I had to break the StartFW class funcitons into separate methods to do different jobs
+2. I created Junit test class to create test
+3. provided script path hard coded for each test
+4. I think I need to update the sel methods also to include Junit verification, so it will be captured into 
+Junit test results.
+
+
