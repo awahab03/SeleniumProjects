@@ -1,0 +1,140 @@
+	
+	body {
+		background: E6FCFF;
+	}
+	.logoTbl{
+		width:80%;
+		//border:1px solid blue;
+		margin: 15px;
+	}	
+	.topTbl{
+		width:90%;
+		border-collapse:collapse;
+		border: 1px solid green;
+	}
+	.topTbl td{
+		padding:5px; //border:#4e95f4 1px solid;
+	}
+	.topTbl tr{
+		background: #d8d9f3;
+	}
+	.logo::after {
+		//width: 140px; /*or your image's width*/
+		//height: 140px; /*or your image's height*/
+		//margin: 0;
+		//padding: 0;
+		border: 3px solid yellowgreen;
+		background-image: url("Z:\FQT\AutFramework\GlobalConfig\USPTO_logo.jpg");
+		//background-repeat: no-repeat;
+		//content: url("Z:\FQT\AutFramework\GlobalConfig\USPTO_logo.jpg");
+		//background: url(Z:\FQT\AutFramework\GlobalConfig\USPTO_logo.jpg);
+		//height: 140px;
+		//width=140px;
+	}
+	img {
+		content: url("Z:\FQT\AutFramework\GlobalConfig\USPTO_logo.jpg");
+	}
+	.infoTable{
+		width:100%;
+		border-collapse:collapse;
+		border:2px solid blue;
+	}
+	.infoTable td{
+		padding:3px; border:#4e95f4 1px solid;
+	}
+	.infoTable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.infoTable tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.infoTable tr:nth-child(even){
+		background: #dae5f4;
+	}
+	.Passed {
+		color:green;
+	}
+	.Failed {
+		color:red;
+	}
+	.d1 {
+   		width: 90%;
+		height: 80px;
+		border: 3px solid yellowgreen;
+		padding: 2px;
+		margin: 5px;
+	}
+
+	.d2 {
+    		//background-color: lightblue;
+   		width: 150px;
+		height: 40px;
+    		padding: 1px;
+    		//border: 3px solid purple;
+    		margin: 10px;
+	}
+
+
+	.mainTable{
+		width:80%;
+		border: 2px solid purple; 
+		border-collapse:collapse;
+	}
+	.P{
+		color: green;
+	}
+	.F{
+		color: red;
+		//text-align: center;
+	}
+	.D{
+		color: black;
+	}
+	.W{
+		color: orange;
+	}
+	.mainTable td{ 
+		padding:2px; border:#4e95f4 1px solid;
+	}
+	
+	
+	.mainTable th{
+		text-align: center;
+		background: lightgrey;
+		border: 3px solid purple;
+		height: 40px;
+		color: black;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.mainTable tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.mainTable tr:nth-child(even){
+		background: #FAF0E6;
+	}
+
+	.stp { 
+		//background: yellow;
+		text-align: center;
+		width: 50px;
+	}
+	.res { 
+		//background: yellow;
+		text-align: center;
+		width: 70px;
+	}
+
+#myLayer {
+	position:absolute;
+	left:836px;
+	top:343px;
+	width:50px;
+	height:20px;
+	z-index:1;
+	background-color: gray;
+	//visibility:hidden;
+	
+}
